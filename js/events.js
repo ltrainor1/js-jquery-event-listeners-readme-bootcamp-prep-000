@@ -16,7 +16,9 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("#")
+  $("#typing").on('submit', function(){
+    alert("Your form is going to be submitted now.")
+  })
 }
 
 });

@@ -14,7 +14,7 @@ function frameIt(){
   }
   
 function pressIt(){
-  $("#typing").on('submit', function(key){
+  $("#typing").on('keydown', function(key){
     if(key.which == 'G'){
     alert("Your form is going to be submitted now.")
     }

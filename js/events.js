@@ -1,6 +1,6 @@
 //define functions here
 
-$(document).ready(function(){
+$(document).ready(function(){});
 
 function getIt(){
   $('p').on('click', function(){
@@ -21,4 +21,4 @@ function pressIt(){
   })
 }
 
-});
+

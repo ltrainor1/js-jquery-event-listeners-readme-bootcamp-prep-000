@@ -10,13 +10,9 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load', function(){
-    this.addClass
+  $('img').on('load', addClass(tasty))
   }
   
-  )
-}
-
 function pressIt(){
   $("#typing").on('submit', function(){
     alert("Your form is going to be submitted now.")

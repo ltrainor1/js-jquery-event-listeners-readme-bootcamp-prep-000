@@ -10,7 +10,11 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load', addClass('tasty'))
+  $('img').on('load', function(){
+    this.addClass
+  }
+  
+  )
 }
 
 function pressIt(){

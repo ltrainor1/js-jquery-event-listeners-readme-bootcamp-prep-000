@@ -10,9 +10,9 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').addClass().on('load', function(){
+  $('img').on('load', addClass(function(){
     return 'tasty';
-  })
+  }))
 }
 
 function pressIt(){
